@@ -571,7 +571,7 @@
   <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col
     max-w-screen-lg items-center">
       
-      <div class="my-5">© Copyright 2020. All Rights Reserved.</div>
+      <div class="my-5" id="Copyright"></div> 
   </div>
 </div>
 
@@ -602,6 +602,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
     });
   });
+
+
+const copyright = document.getElementById("Copyright");
+
+const year= new Date().getFullYear();
+
+//  const yearfull = year.;
+copyright.innerHTML = `©Copyright ${year} . All right Reserved.`;
 
 </script>
 </body>
