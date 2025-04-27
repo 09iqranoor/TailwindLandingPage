@@ -24,7 +24,7 @@ JavaScript (for animations or interactivity) ⚙️
 
 🔗 Live Preview 👀
 
-[](https://09iqranoor.github.io/TailwindLandingPage/)
+https://09iqranoor.github.io/TailwindLandingPage/
 
 
 
